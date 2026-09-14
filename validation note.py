@@ -2,7 +2,7 @@
 Error cheching data entry with while statements
 """
 
-# Name chech
+# Name check
 
 # Rule - can't be empty
 # less than 30 characters
