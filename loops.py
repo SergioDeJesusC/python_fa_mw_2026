@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 -----------------------------------------------------------------------
 ASSIGNMENT REQUIREMENTS
@@ -56,3 +57,64 @@ for day in (
     "Saturday",
 ):
     print(day)
+=======
+"""
+-----------------------------------------------------------------------
+ASSIGNMENT REQUIREMENTS
+-----------------------------------------------------------------------
+[ ] 1. Header Docstring included.
+[ ] 2. Task 1: While Loop (The Nagging Kid)
+       - Repeats "Are we there yet?" until user types "yes".
+       - Uses a boolean variable to control the loop.
+[ ] 3. Task 2: For Loop (99 Bottles of Beer)
+       - Counts backwards from 99 to 1.
+       - Prints "[number] bottles of beer on the wall!"
+[ ] 4. Upload to GitHub and paste the link below.
+-----------------------------------------------------------------------
+"""
+
+
+ Hungry = True
+
+ while Hungry:
+     print("wait in the car")
+
+     anwser = input("Are we there yet???  (yes/no)  ")
+     if anwser == "yes":
+        Hungry = False
+
+
+entering = True  # flag
+total = 0
+count = 0
+
+while entering >= 0:
+    print("Enter each test score, enter -1 when done.")
+    score = float(input("Enter the test score"))
+    if score > 0:
+        total += score  # short cut total = total + score
+        count += 1
+    else:
+        print("Entry completed")
+
+average = total / count
+
+print(f"The average test score was: {average:,.1f}")
+
+for x in range(1, 11):
+    print(x)
+
+for y in range(10, 0, -1):
+    print(y)
+
+for day in (
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wensday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+):
+    print(day)
+>>>>>>> 88cea1dfdcc244c0327fe035cf02228b5b9db499
