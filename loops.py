@@ -13,29 +13,46 @@ ASSIGNMENT REQUIREMENTS
 -----------------------------------------------------------------------
 """
 
+# Hungry = True
 
-hungry = True
+# while Hungry:
+#     print("wait in the car")
 
-while hungry:
-    print("Eating a taco...")
-    
-    # We MUST change the state to stop the loop!
-    answer = input("Are you full? (yes/no): ")
-    if answer == "yes":
-        hungry = False
+#     anwser = input("Are we there yet???  (yes/no)  ")
+#     if anwser == "yes":
+#         Hungry = False
 
 
+entering = True  # flag
+total = 0
+count = 0
 
+while entering >= 0:
+    print("Enter each test score, enter -1 when done.")
+    score = float(input("Enter the test score"))
+    if score > 0:
+        total += score  # short cut total = total + score
+        count += 1
+    else:
+        print("Entry completed")
 
+average = total / count
 
+print(f"The average test score was: {average:,.1f}")
 
-def double_penny(days):
-    # BASE CASE: Stop when we hit Day 1
-    if days == 1:
-        return 0.01
-    
-    # RECURSIVE CASE: Double the previous day's total
-    return 2 * double_penny(days - 1)
+for x in range(1, 11):
+    print(x)
 
-total = double_penny(30)
-print(f"Total after 30 days: ${total:,.2f}")
+for y in range(10, 0, -1):
+    print(y)
+
+for day in (
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wensday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+):
+    print(day)
