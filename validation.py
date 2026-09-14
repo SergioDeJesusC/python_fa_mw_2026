@@ -6,9 +6,12 @@
 try:
     fname = ""
     while not fname:
-        fname = input("Please enter your first name")
+        fname = input("Please enter your first name:")
         fname = fname.strip()
-        fname = input("Please enter your last name")
+        fname = input("Please enter your last name:")
+        fname = fname.strip()
+
+
 
 
 
