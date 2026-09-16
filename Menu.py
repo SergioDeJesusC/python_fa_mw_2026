@@ -13,7 +13,7 @@ while choice > 0 and choice < 4:
             print(f"Your balance is:  ${balance:.2f}")
         case 2:
             print("Deposit")
-            print(f"How much you wnat to deposit")
+            print(f"How much you want to deposit)
         case 3:
             print("Withdraw")
             print(f"How much you wnat to Withdraw")
