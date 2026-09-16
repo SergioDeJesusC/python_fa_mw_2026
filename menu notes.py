@@ -1,7 +1,7 @@
 """
 Think CRUD
 
- Create
+✨ Create
 🔎 Search
 📈 update
 🗑️ Delete
