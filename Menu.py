@@ -16,6 +16,6 @@ while choice > 0 and choice < 4:
             print(f"How much you wnat to deposit")
         case 3:
             print("Withdraw")
-            print(f"How much you wnat to Withdraw")
+            print(f"How much you want to Withdraw")
         case 4:
             print("Good bye!")
