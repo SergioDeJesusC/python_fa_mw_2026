@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 Error cheching data entry with while statements
 """
@@ -22,4 +23,30 @@ try:
 except ValueError:
     print("I'm sorry, that is not a valid value")
 except Exception as e:
+=======
+"""
+Error cheching data entry with while statements
+"""
+
+# Name chech
+
+# Rule - can't be empty
+# less than 30 characters
+# should have first letter capitalized (we handle)
+
+try:
+    fname = ""
+    while not fname:
+            fname = input("Please enter your first name:")       
+            fname = fname.strip()
+
+
+    age = -1
+    while age >= 0:
+        age = int(input("please enter your child's age: (whole years, round down)") )
+
+except ValueError:
+    print("I'm sorry, that is not a valid value")
+except Exception as e:
+>>>>>>> a0538a22fc9253f28491f15afddbdf4ade8bfe3b
     print(f"Error: {e}")
