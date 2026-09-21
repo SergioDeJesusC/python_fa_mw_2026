@@ -6,7 +6,7 @@ while choice > 0 and choice < 4:
     print(f" 3. Withdraw")
     print(f" 4. Exit")
     choice = int(input("Please enter the number of your selection:  "))
-
+    
     match choice:
         case 1:
             print("Balance")
