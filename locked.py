@@ -1,28 +1,18 @@
 """
-Constants and Tuples
-parallel arrays
-
+constants vs tuples
 """
 
+SCHOOL_NAME = ("McHenry County College")
 
-states = tuple[str, ...] = (
-    
-)
+print(SCHOOL_NAME)
 
+# replaces does not modify (same as strings)
+SCHOOL_NAME = ("Elgin Community College")
 
-state_capital = tuple[str, ...] = (
-
-)
-
-state_capital_biard = (
-
-)
-
-# my_state = states.sort()
-
-# for index in range(0, len(states)):
-#     print(f"{states[index]},  {state_capital[index]}")
+print(SCHOOL_NAME)
 
 
-print(f"{states_and_capitals[12], [0]}")
-print(f"{states_and_capitals[12], [1]}")
+# not allowed
+# SCHOOL_NAME.pop()
+
+print(len(SCHOOL_NAME))
