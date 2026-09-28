@@ -10,7 +10,11 @@ ASSIGNMENT 6B: THE DEPARTMENT SECURITY TERMINAL
 -----------------------------------------------------------------------
 """
 
-# declare variable/data structures\
+# declare variable/data structures
+
+STUDENT_NAME = ("Henry Danger")
+
+print(STUDENT_NAME)
 
 
 
