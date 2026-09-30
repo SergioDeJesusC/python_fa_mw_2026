@@ -18,8 +18,7 @@ print(instrument)
 
 print("*" * 140)
 
-max()
-min()
+
 
 print(new_name.strip())
 
