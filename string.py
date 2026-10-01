@@ -18,12 +18,14 @@ print(instrument)
 
 print("*" * 140)
 
-
-
-print(new_name.strip())
+messy_input = "vOLUME_knob_11"
+print(messy_input.strip())
+print(messy_input.lower())
+print(messy_input.replace("vOLUME", "Volume"))
 
 serial_number = "90210"
 
+print("Valid Serial" if serial_number.isdigit() else "Invalid Serial")
 
 
 # We are going to sing about a Duck!
@@ -32,6 +34,16 @@ serial_number = "90210"
 name_string = "DUCKY"
 duck_letters = list(name_string)
 count = 0
+
+print("\n--- Singing the Duck Song! ---")
+
+final_name = " ".join(duck_letters)
+print(f"({final_name}) \n" * 3)
+print("and Ducky was his name-o!")
+
+duck_letters[count] = "🎸"
+
+count += 1
 
 final_name = " ".join(duck_letters)
 print(f"({final_name}) \n" * 3)
