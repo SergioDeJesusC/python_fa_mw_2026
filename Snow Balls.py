@@ -7,8 +7,8 @@ This week: Define constants, create menu
 
 #  Global - variables declared out side of all of the function are global
 # 
-SIZES = ("Small", "Medium", "")
-ICE_CREAM = ("Oat", "Soy",)
+SIZES = ("Small", "Medium", "Larger")
+ICE_CREAM = ("Vanilla", "chocolate", "M&M", "Cookie", "")
 PRICE = {"Small": 2.75}
 MENU = "menu.txt"
 
