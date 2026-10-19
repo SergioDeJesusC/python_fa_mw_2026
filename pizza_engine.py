@@ -1,0 +1,24 @@
+"""
+-----------------------------------------------------------------------
+ASSIGNMENT 10A: THE RESILIENT PIZZA ENGINE
+-----------------------------------------------------------------------
+[ ] 1. Header Docstring included.
+[ ] 2. Global constant TOPPINGS defined as a Tuple in ALL_CAPS.
+[ ] 3. Function 'make_pizza' defines 4 specific parameters.
+[ ] 4. 'make_pizza' uses a DEFAULT value for is_delivery.
+[ ] 5. main() displays the Global Pantry list to the user.
+[ ] 6. main() calls the function using KEYWORD ARGUMENTS.
+-----------------------------------------------------------------------
+"""
+
+
+def order_pizza(toppings):
+    for topping in toppings:
+        print(topping)
+
+
+
+
+def main():
+    my_toppings = ["Pepperoni", "Mushroom", "Green Peppers", "Onions"]
+    order_pizza(my_toppings)
