@@ -12,13 +12,18 @@ ASSIGNMENT 10A: THE RESILIENT PIZZA ENGINE
 """
 
 
-def order_pizza(toppings):
-    for topping in toppings:
-        print(topping)
+def make_pizza(customer, size, topping):
+    print(customer)
+    print(size)
+    print(topping)
 
+is_delivery = False
 
 
 
 def main():
-    my_toppings = ["Pepperoni", "Mushroom", "Green Peppers", "Onions"]
-    order_pizza(my_toppings)
+    make_pizza = ["Pepperoni", "Jalapeno", "Sauces", "Onions"]
+    is_delivery(topping)
+
+
+    main()
