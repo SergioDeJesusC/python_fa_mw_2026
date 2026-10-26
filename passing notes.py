@@ -41,7 +41,7 @@ def main():
     print(SCOPE_DEMO)
     local = "Can you see me?"
     print(local)
-    passed(local)
+    passed(local) 
     not_passed()
     count(4, 32, 43)
     control(three=3, one=1, two=2)
