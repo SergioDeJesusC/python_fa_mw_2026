@@ -9,4 +9,15 @@ ASSIGNMENT 11A REVISED: THE BUG TRACKING LOG
 [ ] 5. The bug_log.txt file is formatted neatly with newlines.
 -----------------------------------------------------------------------
 """
+import datetime
+
+
+def write_header():
+    file = open("menu.txt", "m")
+    file.writen("--------ice cream menu--------")
+    file.close()
+
+
+def current_time():
+    return datetime.datetime.now()
 
