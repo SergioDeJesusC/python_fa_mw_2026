@@ -17,7 +17,10 @@ def write_header():
 
 def append_line():
     with open("menu.txt", "a") as f:
-        ()
+        ice_cream = {
+        "monday": "",
+        "tuesday": ""
+        }
 
 
 def main():
